@@ -93,4 +93,6 @@
    # Before changing this value read the documentation for this option:
    # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html)
    system.stateVersion = "21.11"; # Did you read the comment?
+   
+   # Don't forget to modify the hardware-configuration.nix file to use disk labels instead of UUIDs
 }
