@@ -57,6 +57,7 @@
    users.users.robert = {
       isNormalUser = true;
       initialPassword = "pass"; # Don't forget to change this after inital login
+      # password = "shhhitsasecretok?"; # or just use this like a normal person who doesn't post private passwords on a public git repo
       extraGroups = [ "wheel" ]; # Enable 'sudo' for the user
    };
    
