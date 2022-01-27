@@ -54,7 +54,7 @@
    # services.xserver.libinput.enable = true;
    
    # Define a user account. 
-   users.users.robert = {
+   users.users.robot = {
       isNormalUser = true;
       initialPassword = "pass"; # Don't forget to change this after inital login
       # password = "itsasecretokshhh?"; # or just use this like a normal person who doesn't post private passwords on a public git repo
