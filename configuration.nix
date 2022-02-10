@@ -66,6 +66,19 @@
    environment.systemPackges = with pkgs; [
       wget vim nano
       firefox
+      ### KDE stuff
+      konsole dolphin kate kwrite 
+      libsForQt5.kcolorchooser libsForQt5.gwenview libsForQt5.okular libsForQt5.libksysguard libsForQt5.ark krita
+      ibsForQt5.spectacle
+      ### Utils
+      sxiv gimp calibre transmission-qt mpv xarchiver
+      ### LaTeX
+      texmaker texstudio
+      ### Cooding
+      lite kdevelop qtcreator vscodium-fhs
+      ### gaems
+      gzdoom quakespasm 
+      
    ];
    
    # Some programs need SUID wrappers, can be configured further or are
@@ -95,5 +108,8 @@
    # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html)
    system.stateVersion = "21.11"; # Did you read the comment?
    
+   # NVIDIA support
+   services.xserver.videoDrivers = [ "nvidia" ];
+
    # Don't forget to modify the hardware-configuration.nix file to use disk labels instead of UUIDs
 }
