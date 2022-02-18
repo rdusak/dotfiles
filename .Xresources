@@ -1,0 +1,7 @@
+/* ~/.Xresources */
+
+/* BACKGROUND: #131313 */
+/* FOREGROUND: #d6dbe5 */
+Sxiv.background: #c9c9c9
+Sxiv.foreground: #ffffff
+Sxiv.font: xft:Hack:size=14
