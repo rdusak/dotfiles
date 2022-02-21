@@ -71,7 +71,7 @@
       libsForQt5.kcolorchooser libsForQt5.gwenview libsForQt5.okular libsForQt5.libksysguard libsForQt5.ark krita
       ibsForQt5.spectacle
       ### Utils
-      sxiv gimp calibre transmission-qt mpv xarchiver
+      sxiv gimp calibre transmission-qt mpv xarchiver pinta mypaint
       ### LaTeX
       texmaker texstudio
       ### Cooding
